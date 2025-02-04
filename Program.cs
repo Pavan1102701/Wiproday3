@@ -8,7 +8,7 @@ namespace AccessSpecifierdemo
         {
             Customer cst = new Customer();
             cst.custId = 11;
-            cst.custName = "Liya";
+            cst.custName = "PAVAN";
             cst.Display();
         }
     }
