@@ -1,17 +1,15 @@
-﻿class Program1
-{
-    public int x;
-    public int y;
-}
+﻿using WiproDay3Demo;
 
-class Program
+namespace AccessSpecifierdemo
 {
-    static void Main()
+    internal class Program
     {
-
-          Program1 p  = new Program1();
-        p.x = 10;
-        p.y = 15;
-        Console.WriteLine($"x = {p.x}, y = {p.y}");
+        private static void Main(string[] args)
+        {
+            Customer cst = new Customer();
+            cst.custId = 11;
+            cst.custName = "Liya";
+            cst.Display();
+        }
     }
 }
